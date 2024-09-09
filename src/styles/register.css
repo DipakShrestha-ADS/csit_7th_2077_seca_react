@@ -3,10 +3,11 @@
     top: 50%;
     left:  50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 20px 20px rgba(121, 223, 66, 0.684);
+    box-shadow: 0px 0px 20px 10px rgba(46, 214, 229, 0.841);
     width: 650px;
     border-radius: 20px;
-    padding: 20px
+    padding: 20px;
+    background-color: whitesmoke;
 }
 .reg-row-field{
     display: flex;
@@ -15,4 +16,36 @@
 }
 .reg-row-field input{
     width: 300px;
+}
+.gender-field>h3{
+    margin-bottom: 8px;
+}
+.gender-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.gender input{
+    margin-right: 10px;
+}
+#register-button input{
+    width: 100%;
+    margin-top: 30px;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(11, 219, 171), rgb(45, 74, 152), rgb(156, 57, 169));
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+}
+.register-container{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient( rgb(11, 219, 171), rgb(45, 74, 152), rgb(156, 57, 169));
 }
